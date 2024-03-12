@@ -29,7 +29,7 @@ header{
     top: 0;
 
     background-color: var(--bg--color);
-    z-index: 1;
+    z-index: 10;
     
 }
 
@@ -39,7 +39,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: var(--bg--color);
-    height: 35px;
+    height: 80px;
     font-family: "Dancing Script", cursive;
     font-weight: bold;
   
@@ -48,8 +48,8 @@ header{
 }
 .navbar_logo_stol{
    
-    width: 28px;
-    height: 28px;
+    width: 50px;
+    height: 50px;
     position: relative;
     margin-left: 20px;
     
@@ -60,7 +60,7 @@ header{
 .navbar_logo_stol p{
     display: inline-block;
     position: absolute;
-    font-size: 9px  ;
+    font-size: 18px  ;
     font-weight: bold;
     color: var(--font-color);
     left: 0;
@@ -76,7 +76,7 @@ header{
 
 }
 .navbar ul a{
-   font-size: 10px;
+   font-size: 20px;
    color: var(--font-color);
    text-shadow: 2px 2px 10px black;
    transition:  0.7s ease;
@@ -100,9 +100,9 @@ header{
  }
  .man_icon{
    
-    margin-top: 23px;
-    width: 25px;
-    height: 25px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
     background-color: var(--font-color);
     border-radius: 50%;
    position: absolute;
@@ -127,12 +127,12 @@ header{
 
  }
  .listur{
-    width: 80px;
-    height: 8%;
+    width: 150px;
+    
     
     position: absolute;
-    right: -9px;
-    top: 45px;
+    left: -38px;
+    top: 55px;
  
 
     
@@ -156,7 +156,7 @@ header{
 }
 .background2 {
     width: 100%;
-    height: calc(100vh - 35px );
+    height: calc(100vh - 80px );
     background-image: linear-gradient(61deg, rgba(0, 0, 0, 0.481) 0%, rgba(1, 1, 1, 0.6699929971988796) 100%), url("bg1.jpeg");
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -169,16 +169,17 @@ header{
 }
 .background2 h1{
   text-align: center;
+  font-size: 50px ;
   text-transform: uppercase;
   font-family: "Oleo Script", system-ui;
-  color:var(--font-color)
+  color:var(--font-color);
 
   
 }
 .background2 p{
     text-align: center;
-     padding:0 50px ;
-     font-size: 12px;
+     padding:0 200px ;
+   font-size: 20px;
     font-family: "Oleo Script", system-ui;
     color:var(--font-color)
   
@@ -187,7 +188,7 @@ header{
 
   .background1 {
     width: 100%;
-    height: calc(100vh - 35px ); 
+    height: calc(100vh - 80px ); 
     background-image:linear-gradient(61deg, rgba(0, 0, 0, 0.481) 0%, rgba(1, 1, 1, 0.6699929971988796) 100%),  url("bg.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -200,6 +201,7 @@ header{
 }
 .background1 h1{
   text-align: center;
+  font-size: 50px!important;
   font-family: "Oleo Script", system-ui;
   color:var(--font-color);
   font-size: 25px;
@@ -208,8 +210,8 @@ header{
 }
 .background1 p{
     text-align: center;
-     padding:0 50px ;
-     font-size: 12px;
+     padding:0 200px ;
+     font-size: 20px;
     font-family: "Oleo Script", system-ui;
     color:var(--font-color)
   
@@ -218,7 +220,10 @@ header{
   section{
     width: 90%;
     height: 100%;
-    margin: 20px auto;
+   
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -230,19 +235,22 @@ header{
   .bas h1{
     color: rgb(44, 22, 2);
     font-family: "Oleo Script", system-ui;
+    font-size: 50px;
+    margin-top: 20px;
   }
   .bas p{
     color: rgb(44, 22, 2);
     font-family: "Oleo Script", system-ui;
     text-align: center;
+    font-size: 25px;
   }
 .product {
-  margin-top: 10px;
-  margin-left: 5px;
-    width:130px;
-    height: 155px;
-    background-color: var(--bg--color);
-    border: 1px solid rgb(224, 203, 171);
+  margin-top: 20px;
+  margin-left: 15px;
+    width: 22%;
+    height: 320px;
+   
+    border: 2px solid rgb(236, 193, 128);
     border-radius: 15px;
     overflow: hidden;
     position: relative;
@@ -259,8 +267,8 @@ z-index: 1;
 
 .heart{
   color: rgb(7, 7, 7);
-  width: 25px;
-  height: 25px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background-color: rgb(245, 201, 165);
   border: 1px solid rgb(224, 203, 171);
@@ -280,18 +288,19 @@ z-index: 1;
 }
 
 .heart i{
-  font-size: 10px;
+  font-size: 20px;
   position: absolute;
-  right: 50%;
- top: 7px;
+  right: 28px;
+ top: 15px;
 
 }
 .product img{
     width: 100%;
-    height: 100px;
+    height: 200px;
 }
 .product p{
-    font-size: 10px;
+  margin: 10px 0;
+    font-size: 20px;
     text-align: center;
     font-family: "Poppins", sans-serif;
     padding: 0px 5px;
@@ -304,11 +313,11 @@ z-index: 1;
 }
 
 button{
-    width: 35px;
-    height: 20px;
+    width: 70px;
+    height: 40px;
     border: none;
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 15px;
     color: rgb(204, 170, 95);
     background-color: rgb(44, 22, 2) ;
     font-weight: bold;
@@ -332,7 +341,10 @@ button:hover{
 
 .abouts{
   display: flex;
- padding-top: 30px;
+  justify-content: center;
+  margin-top: 20px;
+  
+
 }
 .about{
   width: 50%;
@@ -342,30 +354,34 @@ button:hover{
   font-family: "Oleo Script", system-ui;
 
 }
+.about h1{
+  font-size: 50px;
+}
 .about p{
 
   position: absolute;
-  font-size: 11px;
+  font-size: 20px;
+ padding-right: 30px;
   
 
 
 }
 
 .about_icon1{
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   position: absolute;
-  left: 17px;
-  top: 40px;
+  left: 10px;
+  top: 60px;
   z-index: -1;
 
 }
 .about_icon2{
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   position: absolute;
-  left:  100px;
-  top:40px;
+  left:  133px;
+  top:60px;
   z-index: -1;
 
 }
@@ -384,18 +400,18 @@ button:hover{
 color: rgb(204, 113, 2);
 position: absolute;
 left: 10px;
-top: calc( 50% - 30px);
+top: 85%;
 z-index: 1;
-font-size: 20px;
+font-size: 30px;
 transition: 0.7s ease;
 }
 .i_2{
   color: rgb(204, 113, 2);
   position: absolute;
   right: 10px;
-  top: calc( 50% - 30px);
+  top: 85%;
   z-index: 1;
-font-size: 20px;
+font-size: 30px;
 transition: 0.7s ease;
   }
   .i_1:hover{
